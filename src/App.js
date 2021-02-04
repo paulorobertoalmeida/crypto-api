@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-var NumberFormat = require('react-number-format');
+
+
 
 class App extends Component {
 
@@ -14,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,IOT&tsyms=USD')
+    axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,EOS,XMR,ZEC,ADA,BCH,UNI,AAVE,&tsyms=USD')
       .then(res => {
         const cryptos = res.data;
         console.log(cryptos);
