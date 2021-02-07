@@ -1,3 +1,13 @@
+# Crypto API
+
+### This project is an api to collect crypto data.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
